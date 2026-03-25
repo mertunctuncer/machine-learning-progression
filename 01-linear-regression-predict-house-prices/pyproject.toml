@@ -1,0 +1,12 @@
+[project]
+name = "01-linear-regression-predict-house-prices"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipympl>=0.10.0",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+]

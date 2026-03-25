@@ -1,0 +1,16 @@
+[project]
+name = "machine-learning-progression"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+]
+
+[tool.uv.sources]
+01-linear-regression-predict-house-prices = { workspace = true }
+
+[tool.uv.workspace]
+members = ["01-linear-regression-predict-house-prices"]
