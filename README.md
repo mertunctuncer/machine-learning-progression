@@ -18,7 +18,7 @@ Projects use [uv](https://github.com/astral-sh/uv) for dependency management. Fr
 
 ```bash
 uv sync
-uv run main.py
 ```
+then run the notebook
 
 Check each day's README for setup and anything else specific to that project.

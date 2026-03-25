@@ -49,7 +49,7 @@ From the `01-linear-regression-predict-ho` directory:
 
 ```bash
 uv sync
-uv run main.py
 ```
+then run the notebook
 
 The script expects the dataset at `data/housing.csv` with no header row and whitespace-delimited columns in the standard Boston Housing column order.
