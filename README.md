@@ -6,7 +6,7 @@ Implementing one ML algorithm or technique from scratch every day. The rule is t
 
 | Day | Topic | Description |
 |-----|-------|-------------|
-| 01 | [Linear Regression](01-linear-regression-predict-ho/) | Univariate linear regression trained with gradient descent on the Boston Housing dataset. Compares normalization strategies (MinMax, Z-score) and loss functions (MSE, MAE, RMSE) and how they affect convergence and fit quality. |
+| 01 | [Linear Regression](01-linear-regression-predict-house-prices/) | Univariate linear regression trained with gradient descent on the Boston Housing dataset. Compares normalization strategies (MinMax, Z-score) and loss functions (MSE, MAE, RMSE) and how they affect convergence and fit quality. |
 
 ## Structure
 
