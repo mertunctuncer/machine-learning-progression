@@ -45,11 +45,9 @@ The fits are weak overall (test RMSE of ~8-10 on home values), which is expected
 
 ## Usage
 
-From the `01-linear-regression-predict-ho` directory:
+From project directory:
 
 ```bash
 uv sync
 ```
 then run the notebook
-
-The script expects the dataset at `data/housing.csv` with no header row and whitespace-delimited columns in the standard Boston Housing column order.
