@@ -7,10 +7,17 @@ requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
 ]
 
 [tool.uv.sources]
 01-linear-regression-predict-house-prices = { workspace = true }
 
 [tool.uv.workspace]
-members = ["01-linear-regression-predict-house-prices"]
+members = [
+    "01-linear-regression-predict-house-prices",
+    "02_multivariable_linear_regression",
+]
