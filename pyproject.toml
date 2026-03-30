@@ -1,7 +1,6 @@
 [project]
 name = "machine-learning-progression"
 version = "0.1.0"
-description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -18,6 +17,6 @@ dependencies = [
 
 [tool.uv.workspace]
 members = [
-    "01-linear-regression-predict-house-prices",
+    "01_single_variable_linear_regression",
     "02_multivariable_linear_regression",
 ]
